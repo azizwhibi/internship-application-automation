@@ -1,26 +1,24 @@
 \documentclass[12pt]{article}
-
 \usepackage[a4paper,top=0.8in,bottom=0.8in,left=1in,right=1in]{geometry}
 \usepackage{XCharter}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[french]{babel}
+\usepackage[english]{babel}
 \usepackage[hidelinks]{hyperref}
 \usepackage{graphicx}
 \usepackage{setspace}
 \usepackage{xcolor}
 \usepackage{eso-pic}
 \usepackage{tikz}
-
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{8pt}
 \setstretch{1.22}
 
-% ===== Couleur d'accent : modifier cette ligne pour changer le thème =====
+% ===== Accent color --- change this one line to re-theme =====
 \definecolor{accent}{HTML}{0B2E59}
 
-% ===== Barre verticale gauche, dessinée dans la marge =====
+% ===== Left border bar, drawn inside the existing margin =====
 \AddToShipoutPictureBG*{%
   \begin{tikzpicture}[remember picture, overlay]
     \fill[accent] (current page.north west) rectangle
@@ -30,55 +28,49 @@
 
 \begin{document}
 
-% ===== En-tête =====
+% ===== Header =====
 \begin{center}
-{\Huge Aziz Ouhibi}\\[4pt]
-\href{mailto:ouhibi.aziz@esprit.tn}{ouhibi.aziz@esprit.tn}
-\ | \
-+216 93 177 115
-\ | \
-\href{https://github.com/azizwhibi}{GitHub}
-\ | \
-\href{https://linkedin.com/in/aziz-ouhibi-7b6ab2273}{LinkedIn}
+{\Huge\color{accent} Aziz Ouhibi}\\[4pt]
+\href{mailto:ouhibi.aziz@esprit.tn}{ouhibi.aziz@esprit.tn} \ | \ +216 93 177 115 \ | \ \href{https://github.com/azizwhibi}{GitHub} \ | \ \href{https://linkedin.com/in/aziz-ouhibi-7b6ab2273}{LinkedIn}
 \end{center}
 
 \vspace{10pt}
-
 \today
 
 \vspace{4pt}
-
-\textbf{COMPANY10}
+\textbf{COMPANY11}
 
 \vspace{10pt}
-
-Chère Madame NAME10,
-
-\vspace{5pt}
-
-Je m'appelle Aziz Ouhibi et je suis étudiant en dernière année d'ingénierie en \textbf{génie logiciel} à l'\textbf{ESPRIT}, avec une diplomation prévue en \textbf{2027}. Je recherche un \textbf{stage de fin d'études} à partir de \textbf{février 2027}, afin de contribuer à des projets logiciels concrets et de développer mes compétences au sein de votre équipe.
+Dear Mr. NAME11,
 
 \vspace{5pt}
 
-Mon parcours m'a permis de développer une expérience pratique en développement \textbf{web}, \textbf{mobile} et \textbf{back-end}. J'ai travaillé avec \textbf{Java}, \textbf{Python}, \textbf{TypeScript}, \textbf{React}, \textbf{Flutter}, \textbf{NestJS}, \textbf{Spring Boot} et les \textbf{API REST}. Mes projets m'ont également permis d'utiliser \textbf{PostgreSQL}, \textbf{MongoDB}, l'authentification \textbf{JWT}, \textbf{Docker} et \textbf{GitHub Actions}.
+I hope this letter finds you well. My name is Aziz Ouhibi, and I am a final-year \textbf{Software Engineering} student at \textbf{ESPRIT} in Tunisia, graduating in \textbf{2027}. I am seeking an \textbf{end-of-studies internship} from \textbf{February 2027}, where I can contribute to practical software projects while continuing to grow as an engineer.
 
 \vspace{5pt}
 
-Lors de mes expériences, j'ai participé au développement de fonctionnalités, aux tests, au débogage, à la documentation et à l'amélioration continue de solutions numériques. J'ai notamment automatisé des workflows CI/CD et développé un tableau de bord de supervision, réduisant le suivi manuel d'environ \textbf{15 heures par mois}. Ces expériences ont renforcé ma rigueur, mon autonomie et ma capacité à collaborer dans un environnement de type \textbf{Agile}.
+My experience covers \textbf{web}, \textbf{mobile} and \textbf{backend} development. I have worked with \textbf{Java}, \textbf{Python}, \textbf{TypeScript}, \textbf{React}, \textbf{Flutter}, \textbf{NestJS}, \textbf{Spring Boot} and \textbf{REST APIs}. Through academic and professional projects, I have built customer-facing applications, integrated \textbf{PostgreSQL} and \textbf{MongoDB} databases, implemented \textbf{JWT} authentication and used \textbf{Docker} and \textbf{GitHub Actions} to support reliable delivery.
 
 \vspace{5pt}
 
-Curieux, motivé et certifié \textbf{AWS Certified Cloud Practitioner}, je serais heureux de mettre mon profil généraliste et mon intérêt pour l'ingénierie logicielle au service de votre équipe. Je vous remercie pour votre considération et reste disponible pour un échange.
+During my internship at Tunisie Telecom, I built a Flask REST API and monitoring dashboard for build and deployment workflows. I automated four GitHub Actions workflows for metrics collection, anomaly detection and deployment, reducing manual follow-up by approximately \textbf{15 hours per month}. This experience strengthened my interest in automation, testing, debugging and building maintainable software systems.
 
-Je vous prie d'agréer, Madame, l'expression de mes salutations distinguées.
+\vspace{5pt}
+
+Beyond technical skills, I am comfortable translating requirements into features, collaborating in Agile-style environments and documenting, testing and improving applications iteratively. As an \textbf{AWS Certified Cloud Practitioner}, I bring curiosity, attention to detail and a strong motivation to create useful, reliable digital products.
+
+\vspace{5pt}
+
+I am confident that my general software engineering foundation and hands-on approach would allow me to contribute effectively to your team. I would welcome the opportunity to discuss how I could contribute.
+
+Sincerely,
 
 \vspace{20pt}
-
-Cordialement,
+Sincerely,
 
 \textit{Aziz Ouhibi}
 
-% Décommentez la ligne ci-dessous si vous ajoutez un fichier de signature dans le même dossier.
+% Uncomment the lines below only if you add a signature image at img/signature.png.
 % \vspace{8pt}
 % \includegraphics[width=1.4in]{img/signature.png}
 
